@@ -7,7 +7,16 @@ import android.os.AsyncTask;
 import android.util.Log;
 
 /**
- * Created by maeda on 2016/03/27.
+ * AsyncTask Generics 引数それぞれの意味は以下の通り(順番に)
+ *   Params
+ *     呼び出し側 AsynTask.execute(...)の引数 であると同時に
+ *     doInBackground()の引数
+ *   Progress
+ *     publishProgress()の引数 であると同時に
+ *     onProgressUpdate()の引数
+ *   Result
+ *     doInBackground()の戻り値 であると同時に
+ *     onPostExecute()の引数
  */
 public class SimpleAsyncTask
     extends AsyncTask<String, Integer, Long> {

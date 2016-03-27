@@ -17,6 +17,7 @@ public class AsyncActivity extends AppCompatActivity {
         btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // execute()は UI thread から呼ぶ必要がある
                 new SimpleAsyncTask(AsyncActivity.this).execute("foo", "bar");
             }
         });
