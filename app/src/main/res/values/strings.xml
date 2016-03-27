@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SeedApp for Android41</string>
+
+    <string-array name="list_activity_items">
+        <item>Ada</item>
+        <item>APL</item>
+        <item>BASIC</item>
+        <item>C/C++</item>
+        <item>COBOL</item>
+        <item>FORTRAN</item>
+        <item>PL/I</item>
+    </string-array>
+</resources>
