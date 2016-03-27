@@ -19,7 +19,8 @@
         <activity android:name=".TouchActivity" />
         <activity android:name=".BarcodeActivity" />
         <activity android:name=".CaptureAnyOrientationActivity" />
-        <activity android:name=".ListActivity"></activity>
+        <activity android:name=".ListActivity" />
+        <activity android:name=".AsyncActivity"></activity>
     </application>
 
 </manifest>

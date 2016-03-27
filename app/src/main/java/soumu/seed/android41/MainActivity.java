@@ -49,5 +49,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button btnAsync = (Button)findViewById(R.id.btnAsync);
+        btnAsync.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, AsyncActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
