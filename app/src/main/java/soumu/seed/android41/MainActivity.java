@@ -57,5 +57,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button btnUriage = (Button)findViewById(R.id.btnUriage);
+        btnUriage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, UriageActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
