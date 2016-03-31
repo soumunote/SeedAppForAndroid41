@@ -66,5 +66,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button btnLifecycle =(Button)findViewById(R.id.btnLifecycle);
+        btnLifecycle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, LifecycleActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

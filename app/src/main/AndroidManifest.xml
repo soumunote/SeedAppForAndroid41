@@ -22,7 +22,8 @@
         <activity android:name=".ListActivity" />
         <activity android:name=".AsyncActivity" />
         <activity android:name=".UnitechActivity" />
-        <activity android:name=".UriageActivity"></activity>
+        <activity android:name=".UriageActivity" />
+        <activity android:name=".LifecycleActivity"></activity>
     </application>
 
 </manifest>
