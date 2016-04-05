@@ -10,4 +10,5 @@
         <item>FORTRAN</item>
         <item>PL/I</item>
     </string-array>
+    <string name="title_activity_grow_list">GrowListActivity</string>
 </resources>
