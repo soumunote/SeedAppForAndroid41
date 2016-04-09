@@ -12,11 +12,22 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MultiSelect"
+        android:text="MultiSelect Bad Version"
         android:id="@+id/btnMultiSelect"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Dialg Better Version"
+        android:id="@+id/btnBetterMethod"
+        android:layout_below="@+id/btnMultiSelect"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btnMultiSelect"
+        android:layout_alignEnd="@+id/btnMultiSelect" />
 </RelativeLayout>
