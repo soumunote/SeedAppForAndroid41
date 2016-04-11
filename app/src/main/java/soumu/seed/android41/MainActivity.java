@@ -75,5 +75,23 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button btnImplicitIntent =(Button)findViewById(R.id.btnImplicitIntent);
+        btnImplicitIntent.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ImplicitIntentActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btnHardware = (Button)findViewById(R.id.btnHardware);
+        btnHardware.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, HardwareActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

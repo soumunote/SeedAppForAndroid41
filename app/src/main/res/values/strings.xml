@@ -11,4 +11,5 @@
         <item>PL/I</item>
     </string-array>
     <string name="title_activity_grow_list">GrowListActivity</string>
+    <string name="implicit_intent_activity_chooser_title">以下のアプリで送る</string>
 </resources>
