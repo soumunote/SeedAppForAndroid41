@@ -3,15 +3,27 @@ package soumu.seed.android41;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
 public class MainActivity extends AppCompatActivity {
+
+    private static final String STATE_VALUE = "time";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        String stateValue = null;
+        if (savedInstanceState != null && (stateValue = savedInstanceState.getString(STATE_VALUE)) != null) {
+            Log.d(this.getClass().getName(), stateValue);
+        }
 
         Button btnDialog = (Button)findViewById(R.id.btnDialog);
         btnDialog.setOnClickListener(new View.OnClickListener() {
@@ -93,5 +105,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+
+        Calendar now = GregorianCalendar.getInstance();
+        String nowStr = new SimpleDateFormat().format(now.getTime());
+        outState.putString(STATE_VALUE, nowStr);
     }
 }

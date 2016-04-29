@@ -90,6 +90,6 @@ public class HardwareActivity extends AppCompatActivity {
 
 
 
-        PackageManager.FEATURE_CAMERA_CAPABILITY_MANUAL_POST_PROCESSING
+        //PackageManager.FEATURE_CAMERA_CAPABILITY_MANUAL_POST_PROCESSING
     }
 }
