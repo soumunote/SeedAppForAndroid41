@@ -107,4 +107,16 @@
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/btnImplicitIntent"
         android:layout_alignEnd="@+id/btnImplicitIntent" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ActionBar"
+        android:id="@+id/btnActionBar"
+        android:layout_below="@+id/btnHardware"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btnImplicitIntent"
+        android:layout_alignEnd="@+id/btnImplicitIntent" />
+
 </RelativeLayout>

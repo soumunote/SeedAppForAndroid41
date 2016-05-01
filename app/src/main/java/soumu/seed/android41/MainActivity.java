@@ -105,6 +105,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button btnActionBar = (Button)findViewById(R.id.btnActionBar);
+        btnActionBar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ActionBarActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override

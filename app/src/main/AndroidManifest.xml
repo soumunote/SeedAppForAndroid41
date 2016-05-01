@@ -37,7 +37,8 @@
             android:name=".GrowListActivity"
             android:label="@string/title_activity_grow_list"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".HardwareActivity"></activity>
+        <activity android:name=".HardwareActivity" />
+        <activity android:name=".ActionBarActivity"></activity>
     </application>
 
 </manifest>
