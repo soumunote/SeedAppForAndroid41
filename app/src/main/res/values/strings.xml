@@ -12,4 +12,44 @@
     </string-array>
     <string name="title_activity_grow_list">GrowListActivity</string>
     <string name="implicit_intent_activity_chooser_title">以下のアプリで送る</string>
+
+    <string-array name="main_menu_titles">
+        <item>DialogBox</item>
+        <item>Touch</item>
+        <item>Barcode</item>
+        <item>ListView</item>
+        <item>AsyncWork</item>
+        <item>売上</item>
+        <item>LifeCycle</item>
+        <item>ImplicitIntent</item>
+        <item>Hardware</item>
+        <item>ActionBar</item>
+        <item>WebView</item>
+    </string-array>
+
+    <string-array name="main_menu_descriptions">
+        <!-- DialogBox -->
+        <item>ダイアログボックスの表示。¥n書籍サンプル等は誤りがある場合がある(画面回転等に対応していない)</item>
+        <!-- Touch -->
+        <item>onTouchEventサンプル</item>
+        <!-- Barcode -->
+        <item>ZXing(Zebra Crossing)ライブラリを使用したバーコードリーダの</item>
+        <!-- ListView -->
+        <item>ListActivityのサンプル</item>
+        <!-- AsyncWork -->
+        <item>長時間処理の良いサンプルと悪いサンプル</item>
+        <!-- 売上 -->
+        <item>業務アプリケーションのサンプル</item>
+        <!-- LifeCycle -->
+        <item>ライフサイクルイベントの確認</item>
+        <!-- ImplicitIntent -->
+        <item>Implicit Intentのサンプル</item>
+        <!-- Hardware -->
+        <item>ハードウェアセンサー</item>
+        <!-- ActionBar -->
+        <item>ActionBar</item>
+        <!-- WebView -->
+        <item>WebViewのサンプル</item>
+    </string-array>
+
 </resources>

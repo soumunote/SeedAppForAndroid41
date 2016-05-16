@@ -13,12 +13,26 @@ import java.util.GregorianCalendar;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static class MenuDef {
+        public final String title;
+        public final String description;
+
+        public MenuDef(String title, String description) {
+            this.title = title;
+            this.description = description;
+        }
+    }
+
+    MenuDef
+
     private static final String STATE_VALUE = "time";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        initialieMenuDefs();
 
         String stateValue = null;
         if (savedInstanceState != null && (stateValue = savedInstanceState.getString(STATE_VALUE)) != null) {
